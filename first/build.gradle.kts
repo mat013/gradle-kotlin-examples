@@ -7,6 +7,9 @@ println(myval)
 
 buildscript {
 
+    val b : Project = project
+    println(b)
+    val myval by project
 
 }
 
